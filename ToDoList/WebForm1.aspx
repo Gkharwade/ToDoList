@@ -44,7 +44,6 @@
                 <asp:ButtonField ButtonType="Button" CommandName="SELECT" HeaderText="Done" ShowHeader="True" Text="Done" />
 
                 <asp:ButtonField ButtonType="Button" CommandName="Delete" HeaderText="Delete" ShowHeader="True" Text="Delete " />
-                <asp:CommandField ShowDeleteButton="True" />
             </Columns>
         </asp:GridView>
 

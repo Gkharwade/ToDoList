@@ -126,7 +126,6 @@ namespace ToDoList
         {
             try
             {
-                // Get the TaskID (primary key) of the selected row
                 int TaskID = Convert.ToInt32(GridView1.DataKeys[e.RowIndex].Value);
 
                 // SQL query to delete the row from the database
